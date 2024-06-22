@@ -2,9 +2,9 @@ package com.dex.FindPartners.contant;
 
 /**
  * 系统常量
- *
+ *王浩楠
  * @author lanhaohu
- * @date 2023/06/22
+ * @date 2024/04/22
  */
 public final class SystemConstant {
     private SystemConstant() {

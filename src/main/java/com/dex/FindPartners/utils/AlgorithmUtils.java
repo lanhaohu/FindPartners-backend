@@ -12,7 +12,7 @@ public class AlgorithmUtils {
 
     /**
      * 编辑距离算法（用于计算最相似的两组标签）
-     * 原理：https://blog.csdn.net/DBC_121/article/details/104198838
+     *
      *
      * @param tagList1
      * @param tagList2
@@ -51,7 +51,7 @@ public class AlgorithmUtils {
 
     /**
      * 编辑距离算法（用于计算最相似的两个字符串）
-     * 原理：https://blog.csdn.net/DBC_121/article/details/104198838
+     *
      *
      * @param word1
      * @param word2
