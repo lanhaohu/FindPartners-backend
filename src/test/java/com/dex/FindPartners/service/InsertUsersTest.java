@@ -1,6 +1,7 @@
 package com.dex.FindPartners.service;
 
-import com.yupi.yupao.model.domain.User;
+
+import com.dex.FindPartners.model.domain.User;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.util.StopWatch;
@@ -44,7 +45,6 @@ public class InsertUsersTest {
             user.setTags("[]");
             user.setUserStatus(0);
             user.setUserRole(0);
-            user.setPlanetCode("11111111");
             userList.add(user);
         }
         // 20 秒 10 万条
@@ -79,7 +79,7 @@ public class InsertUsersTest {
                 user.setTags("[]");
                 user.setUserStatus(0);
                 user.setUserRole(0);
-                user.setPlanetCode("11111111");
+
                 userList.add(user);
                 if (j % batchSize == 0) {
                     break;
